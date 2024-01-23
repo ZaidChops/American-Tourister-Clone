@@ -1,0 +1,460 @@
+.features {
+    padding-inline: 25px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    position: relative;
+  }
+  
+  
+  .features img {
+    width: 59%;
+    height: 100%;
+  }
+  
+  .features span{
+    background-color: white;
+     position: absolute;
+    right: 14vw;
+    bottom: 35px;
+    padding:3%; 
+    margin-right: 60px;
+  }
+  
+  .features span h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #272727ee;
+    position: relative;
+  }
+  
+  .features span h2::before {
+    content: "";
+    position: absolute;
+    width: 4.5rem;
+    height: 7px;
+    border-radius: 20px;
+    background: rgb(213,41,66);
+    background: linear-gradient(85deg, rgba(213,41,66,1) 5%, rgba(238,116,36,1) 100%);
+    bottom: -45%;
+  }
+  
+  .features span p {
+    margin-top: 2.5rem;
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    color: #000000d0;
+    word-spacing: 1px;
+    letter-spacing: .2px;
+  }
+  
+  .btn-com {
+    padding-inline: 1.7rem;
+    padding-block: .4rem;
+    margin-top: .5rem;
+    margin-bottom: 1.7rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333333;
+    background-color:white;
+    transition: all ease-in-out .3s;
+    border: none;
+    border-radius: 2rem;
+    transition: all ease-in-out .3s;
+    box-shadow: 0 0 5px 1px #33333371;
+    cursor: pointer;
+  }
+  
+  .btn-com:hover {
+    color: white;
+    background-color: #272727;
+  }
+  
+  .bags-cart-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bags {
+    height: 85vh;
+    width: 97%;
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+    background: rgb(213,41,66);
+    background: linear-gradient(85deg, rgba(213,41,66,1) 5%, rgba(238,116,36,1) 100%);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 8%;
+    padding-top: 20px;
+  }
+  
+  .first-bag {
+      height: 36vh;
+      width: 40vh;
+      margin-top: 3rem;
+      border-radius: 50%;
+      background-color: #EF9500;
+      position: relative;
+  }
+  .secound-bag {
+      height: 16rem;
+      width: 14rem;
+      margin-top: 3rem;
+      border-radius: 50%;
+      background-color: #2383B0;
+      position: relative;
+      top: 8%;
+  }
+  
+  .third-bag {
+      height: 16rem;
+      width: 14rem;
+      margin-top: 3rem;
+      border-radius: 50%;
+      background-color: #D1D3D4;
+      position: relative;
+      top: 16%;
+  }
+  
+  .bags p {
+    color: white;
+    position: absolute;
+    margin-top: 30px;
+    widows: 100%;
+    padding-left: 70px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.8;
+  }
+  
+  .discription-2{
+    padding-top: 45px;
+  }
+  
+  .discription-3{
+    padding-top: 85px;
+  }
+  
+  .first-bag img{
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+  }
+  
+  .secound-bag img{
+    position: absolute;
+  }
+  
+  .third-bag img{
+    position: absolute;
+  }
+  
+  .rounded-div img:hover {
+    scale: 1.06;
+    transition: all ease-in .3s ;
+    cursor: pointer;
+  }
+
+
+
+
+
+/* .best-sellers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+
+.bestsellers-text {
+    margin-right: 80px;
+    margin-left: 20px;
+}
+
+
+.bestsellers-text p {
+    font-size: 13px;
+}
+
+.bestsellers-text button {
+    background-color: white;
+    color: black;
+    border: none;
+    width: 170px;
+    font-weight: 700;
+    border-radius: 20px;
+    height: 48px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+
+.bestsellers-text button:hover {
+    background-color: black;
+    color: white;
+}
+
+.new-arrivals {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+
+.newarrivals-text {
+    margin-right: 60px;
+}
+
+.newarrivals-text p {
+    font-size: 13px;
+}
+
+.newarrivals-text button {
+    background-color: white;
+    color: black;
+    border: none;
+    width: 170px;
+    font-weight: 700;
+    border-radius: 20px;
+    height: 48px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    ;
+}
+
+.newarrivals-text button:hover {
+    background-color: black;
+    color: white;
+}
+
+.newarrivals-text {
+    margin-left: 20px;
+}
+
+.three-bags {
+    margin-top: 40px;
+    margin-inline: 30px;
+    padding-inline: 150px;
+    background-color: rgb(231, 97, 44);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 460px;
+    transform: skewy(4deg)
+}
+
+.luggage h5 {
+    margin-top: 20px;
+
+}
+
+#luggage-bag {
+    background-color: #EF9500;
+    width: 250px;
+    height: 240px;
+    border-radius: 100%;
+
+}
+
+.backpacks h5 {
+    margin-top: 20px;
+}
+
+#backpacks-bag {
+    background-color: #2383B0;
+    width: 250px;
+    height: 240px;
+    border-radius: 100%;
+}
+
+.duffles h5 {
+    margin-top: 20px;
+
+}
+
+#duffles-bag {
+    background-color: #D1D3D4;
+    width: 250px;
+    height: 240px;
+    border-radius: 100%;
+}
+
+.here-foru {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+    margin-top: 40px;
+}
+
+.here-text {
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.here-text p {
+    font-size: 13px;
+}
+
+.here-text button {
+    background-color: white;
+    color: black;
+    border: none;
+    width: 180px;
+    font-weight: 700;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    ;
+}
+
+.here-text button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+
+    .best-sellers {
+        display: flex;
+       flex-direction: column;
+        padding-inline: 50px;
+        padding-top: 60px;
+        padding-inline: none;
+    }
+
+    .best-sellers img{
+        width: 450px;
+        padding-inline: none;
+    }
+
+    .bestsellers-text {
+        margin-right: 50px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .new-arrivals{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new-arrivals img{
+        width: 450px;
+        padding-inline: none;
+    }
+
+    .newarrivals-text {
+        margin-right: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .here-foru {
+        display: flex;
+        flex-direction: column;
+   
+    }
+
+    .here-foru img{
+        width: 450px;
+        padding-inline: none;
+    }
+
+    .here-text {
+        margin-right: 40px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .three-bags {
+        margin-top: 10px;
+        margin-inline: 20px;
+        padding-inline: none;
+        background-color: rgb(231, 97, 44);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        height: 280px;
+      
+    }
+
+    #luggage-bag {
+        width: 150px;
+        height: 150px;
+    
+    }
+
+    .luggage h5 {
+        font-size: 17px;
+    
+    }
+
+    #luggage-bag img{
+        width: 70%;
+    }
+
+    #backpacks-bag {
+        width: 150px;
+        height: 150px;
+        
+    }
+
+    .backpacks h5{
+        font-size: 17px;
+    }
+
+    #backpacks-bag img{
+        width: 70%;
+    }
+    
+    .duffles h5 {
+        font-size: 17px;
+    }
+    
+    #duffles-bag {
+        width: 150px;
+        height: 150px;
+    }
+
+    #duffles-bag img{
+        width: 70%;
+    }
+
+    
+
+
+
+
+
+
+} */
