@@ -12,6 +12,7 @@ const Navbar = () => {
           height: "4vh",
           // paddin: ".3em",
           textAlign: "center",
+          zIndex:"90",
           background: "rgb(213,41,66)",
           background:
             "linear-gradient(85deg, rgba(213,41,66,1) 5%, rgba(238,116,36,1) 100%)",
@@ -28,7 +29,9 @@ const Navbar = () => {
         </p>
       </div>
 
-      <nav className="navbar navbar-expand-lg" style={{}}>
+      <nav className="navbar navbar-expand-lg" 
+      style={{borderBottom:"1px solid gray"}}
+      >
         <div
           className="container-fluid"
           style={{

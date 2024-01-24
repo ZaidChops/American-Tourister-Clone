@@ -13,7 +13,7 @@ const HeroSection = () => {
         id="carouselExampleAutoplaying"
         className="carousel slide"
         data-bs-ride="carousel"
-        // style={{position:"absolute"}}
+        // style={{zIndex:"80",position:"sticky"}}
       >
         <div className="carousel-inner">
           <div className="carousel-item active">

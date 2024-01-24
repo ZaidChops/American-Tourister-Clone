@@ -3,7 +3,7 @@ import HeroSection from './HeroSection'
 import Shop from './Shop'
 import Section from './Section'
 import Slider from './Slider'
-import Footer from './Footer'
+
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Shop/>
       <Section/>
       <Slider/>
-      <Footer/>
+      
     </>
   )
 }
