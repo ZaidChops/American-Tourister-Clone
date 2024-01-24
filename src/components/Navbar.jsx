@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/navbar.css";
 import logo from "../assets/logo.WEBP";
 import shopcolor from "../assets/shopcolor.svg";
 import { Link } from "react-router-dom";
