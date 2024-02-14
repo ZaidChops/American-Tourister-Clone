@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <nav className="navbar navbar-expand-lg" 
-      style={{borderBottom:"1px solid gray"}}
+      style={{borderBottom:"1px solid gray", position : 'sticky', top : "0px", zIndex : '4', backgroundColor : "white"}}
       >
         <div
           className="container-fluid"
@@ -46,7 +46,7 @@ const Navbar = () => {
             // border: ".1px solid #3333330e",
             // boxShadow: "0 .5px 5px 0px #33333311",
             // position: "sticky",
-            // top: "0%",
+            // top: "10px",
             // backgroundColor: "white",
             // zIndex: "4",
             // margin:"0"
