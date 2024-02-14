@@ -1,6 +1,6 @@
 import React from "react";
 // import "../styles/footer.css";
-import logo from "../assets/logo.WEBP";
+// import logo from "../assets/logo.WEBP";
 import visa from "../assets/visa.svg";
 import visaround from "../assets/visa-round.svg";
 
@@ -164,7 +164,7 @@ const Footer = () => {
         <div className="footer-logo">
           <img
             style={{ marginLeft: "15px" }}
-            src={logo}
+            // src={logo}
             alt="Bootstrap"
             width="150"
             height="35"
