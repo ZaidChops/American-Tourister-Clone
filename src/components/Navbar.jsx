@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.WEBP";
+// import logo from "../assets/logo.WEBP";
 import shopcolor from "../assets/shopcolor.svg";
 import { Link } from "react-router-dom";
 
@@ -33,7 +33,7 @@ const Navbar = () => {
       
         >
           <Link to={"/"} className="navbar-brand mx-5" href="#">
-            <img src={logo} alt="Bootstrap" width="150" height="35" />
+            {/* <img src={logo} alt="Bootstrap" width="150" height="35" /> */}
           </Link>
           <button
             className="navbar-toggler"
