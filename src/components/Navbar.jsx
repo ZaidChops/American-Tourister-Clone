@@ -12,9 +12,7 @@ const Navbar = () => {
           // paddin: ".3em",
           textAlign: "center",
           zIndex:"90",
-          background: "rgb(213,41,66)",
-          background:
-            "linear-gradient(85deg, rgba(213,41,66,1) 5%, rgba(238,116,36,1) 100%)",
+          background:"linear-gradient(85deg, rgba(213,41,66,1) 5%, rgba(238,116,36,1) 100%)",
         }}
       >
         <p
