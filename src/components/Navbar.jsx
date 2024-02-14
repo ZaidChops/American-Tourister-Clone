@@ -9,7 +9,6 @@ const Navbar = () => {
       <div
         style={{
           height: "4vh",
-          // paddin: ".3em",
           textAlign: "center",
           zIndex:"90",
           background:"linear-gradient(85deg, rgba(213,41,66,1) 5%, rgba(238,116,36,1) 100%)",
@@ -31,24 +30,7 @@ const Navbar = () => {
       >
         <div
           className="container-fluid"
-          style={{
-            // position:"fixed",
-            // top:"0%"
-            // height: "11vh",
-            // display: "flex",
-            // alignItems: "center",
-            // justifyContent: "space-between",
-            // paddingLeft: "1em",
-            // paddingRight: "4em",
-            // color: "#333333",
-            // border: ".1px solid #3333330e",
-            // boxShadow: "0 .5px 5px 0px #33333311",
-            // position: "sticky",
-            // top: "10px",
-            // backgroundColor: "white",
-            // zIndex: "4",
-            // margin:"0"
-          }}
+      
         >
           <Link to={"/"} className="navbar-brand mx-5" href="#">
             <img src={logo} alt="Bootstrap" width="150" height="35" />
